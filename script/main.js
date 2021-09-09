@@ -92,13 +92,13 @@ const animationTimeline = () => {
     })
     .to(
       ".four",
-      3,
+      2,
       {
         scale: 0.2,
         opacity: 0,
         y: -150,
       },
-      "+=0.7"
+      "+= 1"
     )
     .from(".idea-1", 2, ideaTextTrans)
     .to(".idea-1", 2, ideaTextTransLeave, "+=1.5")
@@ -116,7 +116,7 @@ const animationTimeline = () => {
     .to(".idea-4", 2, ideaTextTransLeave, "+=1.5")
     .from(
       ".idea-5",
-      0.7,
+      2,
       {
         rotationX: 15,
         rotationZ: -10,
@@ -129,7 +129,7 @@ const animationTimeline = () => {
     )
     .to(
       ".idea-5 span",
-      0.7,
+      2,
       {
         rotation: 90,
         x: 8,
@@ -138,7 +138,7 @@ const animationTimeline = () => {
     )
     .to(
       ".idea-5",
-      0.7,
+      2,
       {
         scale: 0.2,
         opacity: 0,
